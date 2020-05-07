@@ -22,6 +22,11 @@
       <option name="url" value="https://www.dcm4che.org/maven2/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="Alfresco" />
+      <option name="name" value="Alfresco Repository" />
+      <option name="url" value="https://artifacts.alfresco.com/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="JBoss" />
       <option name="name" value="JBoss 3rd-party Repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/" />

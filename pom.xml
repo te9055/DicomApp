@@ -35,18 +35,94 @@
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-
+        <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
         <dependency>
-            <groupId>dcm4che</groupId>
-            <artifactId>dcm4che-imageio</artifactId>
-            <version>2.0.29</version>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
             <version>1.4</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/dcm4che/dcm4che-core -->
+        <dependency>
+            <groupId>dcm4che</groupId>
+            <artifactId>dcm4che-core</artifactId>
+            <version>2.0.29</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/dcm4che/dcm4che-image -->
+        <dependency>
+            <groupId>dcm4che</groupId>
+            <artifactId>dcm4che-image</artifactId>
+            <version>2.0.29</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/dcm4che/dcm4che-imageio -->
+        <dependency>
+            <groupId>dcm4che</groupId>
+            <artifactId>dcm4che-imageio</artifactId>
+            <version>2.0.29</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/dcm4che/dcm4che-imageio-rle -->
+        <dependency>
+            <groupId>dcm4che</groupId>
+            <artifactId>dcm4che-imageio-rle</artifactId>
+            <version>2.0.23</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.5.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.0-alpha1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-cli/commons-cli -->
+        <dependency>
+            <groupId>commons-cli</groupId>
+            <artifactId>commons-cli</artifactId>
+            <version>1.4</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/dcm4che.tool/dcm4che-tool-dcm2jpg -->
+        <dependency>
+            <groupId>dcm4che.tool</groupId>
+            <artifactId>dcm4che-tool-dcm2jpg</artifactId>
+            <version>2.0.29</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.media</groupId>
+            <artifactId>jai_imageio</artifactId>
+            <version>1.1</version>
+        </dependency>
+
+
+
+
+
     </dependencies>
 
     <build>
@@ -56,7 +132,9 @@
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
+
             </plugin>
+
         </plugins>
     </build>
 </project>
