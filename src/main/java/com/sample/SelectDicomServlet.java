@@ -82,7 +82,7 @@ public class SelectDicomServlet extends HttpServlet {
                 File dest = new File(outName);
                 Dcm2Jpg dcm2jpg = new Dcm2Jpg();
                 dcm2jpg.convert(src, dest);
-                System.out.println("Completed");
+
             } catch(IOException e){
                 e.printStackTrace();
             }
