@@ -1,17 +1,10 @@
 package com.sample;
 
-import java.awt.*;
-import java.awt.color.ColorSpace;
-import java.awt.image.*;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Iterator;
 import java.util.List;
-import javax.imageio.ImageIO;
-import javax.imageio.ImageReader;
-import javax.imageio.stream.ImageInputStream;
-import javax.imageio.stream.ImageOutputStream;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -28,9 +21,6 @@ import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
 import org.dcm4che2.tool.dcm2jpg.Dcm2Jpg;
-
-
-
 
 @WebServlet(
         name = "selectdicomservlet",
@@ -86,12 +76,10 @@ public class SelectDicomServlet extends HttpServlet {
             e.printStackTrace();
 
         } finally {
-            String dicomin = "D:\\dicom\\in.dcm";
-            String jpegout = "D:\\dicom\\out.jpg";
-
             try{
-                File src = new File(dicomin);
-                File dest = new File(jpegout);
+                boolean result = Files.deleteIfExists(Paths.get(outName));
+                File src = new File(fileName);
+                File dest = new File(outName);
                 Dcm2Jpg dcm2jpg = new Dcm2Jpg();
                 dcm2jpg.convert(src, dest);
                 System.out.println("Completed");
@@ -99,21 +87,6 @@ public class SelectDicomServlet extends HttpServlet {
                 e.printStackTrace();
             }
 
-            /*
-            System.load("C:\\opencv\\OPENCV_BIN\\build\\java\\x64\\opencv_java430.dll");
-            //String infile = fileName;
-            String inFile = "D:\\dicom\\in.dcm";
-            String outfile = "D:\\dicom\\out.jpg";
-
-            System.loadLibrary(org.opencv.core.Core.NATIVE_LIBRARY_NAME);
-
-            Dcm2Jpg conv = new Dcm2Jpg();
-            try {
-                conv.convert(new File(inFile), new File(outfile));
-            } catch (Exception e){
-                System.out.println(e);
-
-            }*/
             RequestDispatcher view = request.getRequestDispatcher("result.jsp");
             view.forward(request, response);
             }

@@ -11,7 +11,7 @@
                 Select Dicom image
             </h1>
             <form action="UploadDicom" enctype="multipart/form-data" method="post">
-                 Select <input type="file" name="file2" /> <br>
+                 Select <input type="file" name="file2" accept=".dcm" /> <br>
                 <input type="submit" value="upload" />
             </form>
         </center>
