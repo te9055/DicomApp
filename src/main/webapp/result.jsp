@@ -1,21 +1,18 @@
 <%@ page import ="java.util.*" %>
 <!DOCTYPE html>
 <html>
+    <head>
+
+    </head>
+
     <body>
         <center>
             <h1>
-                Available Brands
+                DICOM File
             </h1>
-                <%
-                    List result= (List) request.getAttribute("brands");
-                    Iterator it = result.iterator();
 
-                    out.println("<br>We have <br><br>");
+            <img src="./fileupload/tmpfile.jpg"/>
 
-                    while(it.hasNext()){
-                        out.println(it.next()+"<br>");
-                    }
-                    %>
         </center>
     </body>
 </html>

@@ -1,27 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Liquor Store</title>
-</head>
-<body>
-<center>
-    <h1>
-        Select Dicom image
-    </h1>
-    <form method="post" action="UploadDicom">
-        <br>
-        <select name="Type" size="1">
-            <option>WINE</option>
-            <option>WHISKY</option>
-            <option>BEER</option>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dicom Image viewer</title>
+    </head>
 
-        </select>
-        <br><br>
-        <input type="submit">
-    </form>
-</center>
-
-
-</body>
+    <body>
+        <center>
+            <h1>
+                Select Dicom image
+            </h1>
+            <form action="UploadDicom" enctype="multipart/form-data" method="post">
+                 Select <input type="file" name="file2" /> <br>
+                <input type="submit" value="upload" />
+            </form>
+        </center>
+    </body>
 </html>
