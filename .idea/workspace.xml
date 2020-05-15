@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DicomApp:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ccedfc42-cdd5-4329-b5b7-12997e890191" name="Default Changelist" comment="added open cv" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="refactored" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1bcokjDL0JYKUV2jnOjJn8slcXw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../opencv/OPENCV_BIN/build/java/x64" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/DicomApp_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="DicomApp:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/DicomApp_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_DicomApp_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50425" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DicomApp:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.Unnamed" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.34" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.Unnamed" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ccedfc42-cdd5-4329-b5b7-12997e890191" name="Default Changelist" comment="" />
+      <created>1588940887941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588940887941</updated>
+      <workItem from="1588940890930" duration="1099000" />
+      <workItem from="1588942285865" duration="8904000" />
+      <workItem from="1589537087836" duration="3047000" />
+    </task>
+    <task id="LOCAL-00001" summary="updated dependencies. note currently nonfunctional">
+      <created>1589212010406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589212010407</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added open cv">
+      <created>1589543447833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589543447833</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated dependencies. note currently nonfunctional" />
+    <MESSAGE value="added open cv" />
+    <option name="LAST_COMMIT_MESSAGE" value="added open cv" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="625" y="138" key="#Unnamed" timestamp="1588941849014">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="625" y="138" key="#Unnamed/0.40.1920.1040@0.40.1920.1040" timestamp="1588941849014" />
+    <state x="414" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589542369014">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="414" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1589542369014" />
+    <state x="790" y="273" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1589542613189">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="790" y="273" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1589542613189" />
+    <state width="379" height="466" key="DebuggerActiveHint" timestamp="1589212229696">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="379" height="466" key="DebuggerActiveHint/0.40.1920.1040@0.40.1920.1040" timestamp="1589212229696" />
+    <state x="666" y="304" key="FileChooserDialogImpl" timestamp="1589542610625">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="666" y="304" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1589542610625" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1589542629621">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1589542629621" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1589542629621">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1589542629621" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1589542629621">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1589542629621" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1589542629621">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1589542629621" />
+    <state width="1877" height="317" key="GridCell.Tab.1.bottom" timestamp="1589212143316">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="317" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1589212143316" />
+    <state width="1877" height="317" key="GridCell.Tab.1.center" timestamp="1589212143315">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="317" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1589212143315" />
+    <state width="1877" height="317" key="GridCell.Tab.1.left" timestamp="1589212143315">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="317" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1589212143315" />
+    <state width="1877" height="317" key="GridCell.Tab.1.right" timestamp="1589212143316">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="317" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1589212143316" />
+    <state width="1281" height="277" key="GridCell.Tab.2.bottom" timestamp="1588941990245">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1281" height="277" key="GridCell.Tab.2.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1588941990245" />
+    <state width="1281" height="277" key="GridCell.Tab.2.center" timestamp="1588941990245">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1281" height="277" key="GridCell.Tab.2.center/0.40.1920.1040@0.40.1920.1040" timestamp="1588941990245" />
+    <state width="1281" height="277" key="GridCell.Tab.2.left" timestamp="1588941990245">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1281" height="277" key="GridCell.Tab.2.left/0.40.1920.1040@0.40.1920.1040" timestamp="1588941990245" />
+    <state width="1281" height="277" key="GridCell.Tab.2.right" timestamp="1588941990245">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1281" height="277" key="GridCell.Tab.2.right/0.40.1920.1040@0.40.1920.1040" timestamp="1588941990245" />
+    <state x="490" y="215" key="Maven.ArtifactSearchDialog" timestamp="1589552043378">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="490" y="215" key="Maven.ArtifactSearchDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1589552043378" />
+    <state x="440" y="137" key="SettingsEditor" timestamp="1589542615693">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="440" y="137" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1589542615693" />
+    <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1589543459859">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="552" y="293" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1589543459859" />
+    <state x="769" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589542344593">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="769" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1589542344593" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1589552067281">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1589552067281" />
+  </component>
+</project>
