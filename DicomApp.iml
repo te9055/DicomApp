@@ -28,23 +28,28 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
     <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.4" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.2" level="project" />
-    <orderEntry type="library" name="Maven: org.dcm4che.tool:dcm4che-tool-dcm2jpg:5.22.1" level="project" />
-    <orderEntry type="library" name="Maven: org.dcm4che:dcm4che-imageio:5.22.1" level="project" />
-    <orderEntry type="library" name="Maven: org.dcm4che:dcm4che-core:5.22.1" level="project" />
-    <orderEntry type="library" name="Maven: org.dcm4che:dcm4che-dict:5.22.1" level="project" />
-    <orderEntry type="library" name="Maven: org.dcm4che:dcm4che-image:5.22.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.dcm4che:dcm4che-imageio-rle:5.22.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.dcm4che:dcm4che-imageio-opencv:5.22.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.weasis.opencv:weasis-opencv-core:3.6.0-rc1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.media:jai_imageio:1.2-pre-dr-b04" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.media:clibwrapper_jiio:1.2-pre-dr-b04" level="project" />
-    <orderEntry type="library" name="Maven: org.dcm4che.tool:dcm4che-tool-common:5.22.1" level="project" />
-    <orderEntry type="library" name="Maven: org.dcm4che:dcm4che-net:5.22.1" level="project" />
-    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.4" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-log4j12:1.7.29" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.29" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: log4j:log4j:1.2.17" level="project" />
-    <orderEntry type="library" name="Maven: com.github.jai-imageio:jai-imageio-core:1.3.0" level="project" />
-    <orderEntry type="library" name="Maven: com.github.jai-imageio:jai-imageio-jpeg2000:1.3.0" level="project" />
+    <orderEntry type="library" name="Maven: dcm4che.tool:dcm4che-tool-dcm2jpg:2.0.29" level="project" />
+    <orderEntry type="library" name="Maven: dcm4che:dcm4che-core:2.0.29" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: dcm4che:dcm4che-imageio:2.0.29" level="project" />
+    <orderEntry type="library" name="Maven: dcm4che:dcm4che-image:2.0.29" level="project" />
+    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-log4j12:1.6.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: log4j:log4j:1.2.16" level="project" />
+    <orderEntry type="library" name="Maven: javax.media:jai_imageio:1.1.1" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/opencv/OPENCV_BIN/build/java/opencv-430.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <NATIVE>
+          <root url="file://C:/opencv/OPENCV_BIN/build/java/x64" />
+        </NATIVE>
+        <SOURCES>
+          <root url="jar://C:/opencv/OPENCV_BIN/build/java/opencv-430.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
