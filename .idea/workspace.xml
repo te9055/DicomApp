@@ -24,7 +24,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccedfc42-cdd5-4329-b5b7-12997e890191" name="Default Changelist" comment="added open cv" />
+    <list default="true" id="ccedfc42-cdd5-4329-b5b7-12997e890191" name="Default Changelist" comment="added open update to update dcm4che">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/DicomApp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/DicomApp_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DicomApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DicomApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/SelectDicomServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/SelectDicomServlet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +75,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.Unnamed">
     <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -188,7 +196,8 @@
       <updated>1588940887941</updated>
       <workItem from="1588940890930" duration="1099000" />
       <workItem from="1588942285865" duration="8904000" />
-      <workItem from="1589537087836" duration="3047000" />
+      <workItem from="1589537087836" duration="5051000" />
+      <workItem from="1589970831957" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="updated dependencies. note currently nonfunctional">
       <created>1589212010406</created>
@@ -204,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589543447833</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added open update to update dcm4che">
+      <created>1589552136600</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589552136600</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +241,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated dependencies. note currently nonfunctional" />
     <MESSAGE value="added open cv" />
-    <option name="LAST_COMMIT_MESSAGE" value="added open cv" />
+    <MESSAGE value="added open update to update dcm4che" />
+    <option name="LAST_COMMIT_MESSAGE" value="added open update to update dcm4che" />
   </component>
   <component name="WindowStateProjectService">
     <state x="625" y="138" key="#Unnamed" timestamp="1588941849014">
@@ -248,22 +265,22 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="666" y="304" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1589542610625" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1589542629621">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1589971253133">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1589542629621" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1589542629621">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1589971253133" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1589971253132">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1589542629621" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1589542629621">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1589971253132" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1589971253132">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1589542629621" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1589542629621">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1589971253132" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1589971253133">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1589542629621" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1589971253133" />
     <state width="1877" height="317" key="GridCell.Tab.1.bottom" timestamp="1589212143316">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -296,18 +313,18 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1281" height="277" key="GridCell.Tab.2.right/0.40.1920.1040@0.40.1920.1040" timestamp="1588941990245" />
-    <state x="490" y="215" key="Maven.ArtifactSearchDialog" timestamp="1589552043378">
+    <state x="490" y="215" key="Maven.ArtifactSearchDialog" timestamp="1589970959226">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="490" y="215" key="Maven.ArtifactSearchDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1589552043378" />
+    <state x="490" y="215" key="Maven.ArtifactSearchDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1589970959226" />
     <state x="440" y="137" key="SettingsEditor" timestamp="1589542615693">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="440" y="137" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1589542615693" />
-    <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1589543459859">
+    <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1589552149720">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="293" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1589543459859" />
+    <state x="552" y="293" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1589552149720" />
     <state x="769" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589542344593">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

@@ -22,7 +22,7 @@ import org.apache.commons.fileupload.disk.DiskFileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
-import org.dcm4che3.tool.dcm2jpg.Dcm2Jpg;
+import org.dcm4che2.tool.dcm2jpg.Dcm2Jpg;
 
 import static com.sample.AppProperties.OUTPUT_DIRECTORY;
 
